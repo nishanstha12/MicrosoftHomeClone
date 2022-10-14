@@ -330,6 +330,7 @@ color: black;
 }
 .submenu li{
     list-style: none;
+    cursor:pointer;
 }
 .right-nav p{
     /* background-color: aqua; */
