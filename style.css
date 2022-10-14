@@ -42,9 +42,11 @@ text-align: center;
     width: 260px;
     display: flex;
     justify-content: space-between;
+    cursor:pointer
 }
 .right-nav p{
     padding-right: 20px;
+    cursor:pointer
 }
 .icons-nav{
     width: 120px;
