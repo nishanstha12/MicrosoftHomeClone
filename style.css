@@ -1,0 +1,370 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+section{
+    height: auto;
+    width: auto;
+    margin: 20px 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 40px;
+    font-size: 14px;
+}
+.logo img{
+    height: 25px;
+    padding-right: 20px;
+}
+.left{
+    display: flex;
+text-align: center;
+}
+.nav-links ul li{
+   display: inline-block;
+   justify-content: space-around;
+  padding: 4px 19px 0 14px;
+}
+.nav-links ul li a:hover{
+    border-bottom: 0.5px solid black;
+    width: 20px;
+}
+.nav-links ul li{
+    list-style: none;
+}
+.nav-links li a{
+    color: black;
+    text-decoration: none;
+}
+.right-nav{
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+}
+.right-nav p{
+    padding-right: 20px;
+}
+.icons-nav{
+    width: 120px;
+    height: 25px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.icons-nav i{
+    height: 30px;
+    width: 30px;
+}
+.pic-content{
+    margin-top: 15px;
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(images/bg!.png);
+    min-height: 70vh;
+}
+.main-contents{
+    display: flex;
+    flex-direction: column;
+width: 560px;
+height: 500px;
+justify-content: center;
+padding-left: 90px;
+}
+.main-contents h3{
+    font-size: 25px;
+}
+.main-contents p{
+    margin-top: 14px;
+    margin-bottom: 14px;
+    font-size: 17px;
+}
+.btns{
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+.pre {
+    background-color: black;
+    color: aliceblue;
+    height: 40px;
+    width: 135px;
+    font-size: 14px;
+}
+.pre b:hover{
+    cursor: pointer;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-right: 5px;
+}
+.btns a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  
+    color: rgb(14, 12, 12);
+}
+.btns i {
+    padding-left: 5px;
+}
+.btns p:hover{
+
+    border-bottom: 0.5px solid black;
+width: 150px;
+}
+.shortcuts{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.text i{
+font-size: 30px;
+}
+.text a {
+text-decoration: none;
+color: black;
+font-size: 20px;
+
+}
+.text a:hover{
+    border-bottom: 0.5px solid black;
+    width: 20px;
+}
+
+/* cards */
+.cards{
+    display:flex ;
+justify-content: space-between;
+
+margin-top: 15px;
+
+}
+
+.cards-details{
+    width:290px ;
+    height:250px;
+    background-color: greenyellow;
+}
+.cards img{
+    width:300px ;
+    height:157px;
+    margin-bottom: 10px;
+}
+.cards-details h2{
+margin-bottom: 10px;
+}
+.shopping-links{
+    height: 35px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-between;
+
+}
+.shopping-links a{
+    text-decoration: none;
+    color: blue;
+    display: flex;
+    font-size: 18px;
+margin-top: 8px;
+}
+
+.shopping-links a  :hover{
+  
+    border-bottom: 2px solid rgb(4, 0, 255);
+    margin-right: 4px;
+
+}
+.join  :hover{
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    margin-right: 5px;
+}
+ /* 1 month offer  */
+.offer{
+    margin-top: 35px;
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(images/bg5.jpg);
+    color: white;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+padding-left: 50px;
+}
+.offer h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.offer p{
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.join{
+    width: 190px;
+    height: 40px;
+}
+.offer a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    width: 240px;
+}
+.offer a p{
+    margin-left: 21px;
+    padding-right:6px ;
+}
+.offer a i{
+    margin-top: 2px;
+
+}
+.offer a  :hover{
+    border-bottom: 1px solid white;
+    padding-right: 7px;
+ /* pride */
+}
+.pride{
+    margin-top: 35px;
+    background-image: url(images/pride.png);
+    height: 60vh;
+    padding: 25px 0 0 65px;
+}
+.pride h3{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.pride p{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+/* socal media(follow us) */
+.follow-us{
+    display: flex;
+    margin-top: 25px;
+    font-size: 20px;
+
+}
+.follow-us p{
+    display: flex;
+    align-items: center;
+}
+.follow-icons{
+    padding-left: 14px;
+    width:130px ;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+.follow-icons i{
+    color: blue;
+}
+/*  Footer Section */
+.footer{
+    height: 293px;
+    background-color: rgb(242,242,242);
+}
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.footer p{
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+}
+.footer ul li{
+    list-style: none;
+    font-size: 13px;
+padding-top: 10px;
+cursor: pointer;
+}
+.footer a{
+text-decoration: none;
+color: black;
+}
+.footer  a :hover{
+    border-bottom: 0.5px solid black;
+    width: fit-content;
+}
+.end-footer{
+    display: flex;
+    justify-content: space-around;
+   margin-top: 15px;
+    font-size: 13px;
+
+}
+.end-footer a{
+    text-decoration: none;
+    color: black;
+}
+.end-footer a :hover{
+    border-bottom: 0.5px solid black;
+    width: fit-content;
+}
+.lng{
+   width: 40%;
+   display: flex;
+}
+.lng a{
+    padding-right: 8px;
+    font-size: 14px;
+}
+.lng p{
+    font-size: 13px;
+}
+.right-footer li{
+    list-style:none ;
+    display: inline-block;
+    margin-right: 14px;
+}
+
+/* toggle */
+.hidden{
+    display: none;
+}
+.submenu {
+    position: fixed;
+    background-color:black;
+    color: aliceblue;
+    margin-top: 25px;
+
+}
+.submenu li{
+    list-style: none;
+}
+.right-nav p{
+    /* background-color: aqua; */
+    display: block;
+    position:absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
